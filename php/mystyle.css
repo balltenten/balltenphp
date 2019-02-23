@@ -1,0 +1,81 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color: #343940; 
+    color: white;
+    margin: 20px 20px 20px 20px;
+    
+}
+html{
+    scroll-behavior: initial;
+}
+thead{
+    background-color: white;
+    color: #343940;
+}
+@-webkit-keyframes color-transition {
+    0% {
+        background-color:  white;
+        border-color:  white;
+        color:#343940;
+    }
+    33% {
+        background-color:  whitesmoke;
+        border-color:  whitesmoke;
+        color: #343940;
+    }
+    66% {
+        background-color: #343940;
+        border-color: #343940;
+        color: white
+    }
+    100% {
+        background-color: #343940;
+        border-color: #343940;
+        color: white;
+    }
+}
+tbody{background-color: #CCCCCC;font-family: 'Oswald', sans-serif;;
+    -webkit-animation-name: color-transition;
+    animation-name: color-transition;
+    -webkit-animation-duration: 10s;
+    animation-duration: 10s;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+@-webkit-keyframes color-transition {
+    0% {
+        background-color:  white;
+        border-color:  white;
+        color: #343940;
+    }
+    33% {
+        background-color:  whitesmoke;
+        border-color:  whitesmoke;
+        color:#343940;
+    }
+    66% {
+        background-color: #343940;
+        border-color:#343940;
+        color: white
+    }
+    100% {
+        background-color: #343940;
+        border-color: #343940;
+        color: white;
+    }
+}
+thead{background-color: #CCCCCC;font-family: 'Oswald', sans-serif;;
+    -webkit-animation-name: color-transition;
+    animation-name: color-transition;
+    -webkit-animation-duration: 10s;
+    animation-duration: 10s;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;}
